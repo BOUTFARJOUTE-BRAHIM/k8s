@@ -1,2 +1,5 @@
 resources:
 - pod.yaml
+images:
+- name: brahimbtf/frontend01z
+  newTag: "1.5"

@@ -19,9 +19,9 @@ spec:
           cpu: "250m"
           memory: "256Mi"
       volumeMounts:
-        - name: demo-volume
+        - name: deemo-volume
           mountPath: /usr/share/nginx/html
   volumes:
-    - name: demo-volume
+    - name: deemo-volume
       emptyDir: {}
   restartPolicy: Always
